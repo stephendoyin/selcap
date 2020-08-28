@@ -16452,7 +16452,7 @@ p {
 }
 
 .faq__section {
-    background: #183b56;
+    background: #117a8b;
   }
 
 .faq__container {
@@ -16582,7 +16582,7 @@ p {
 
 .testimonial__inner-text {
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #183b56;
   }
 
@@ -16693,5 +16693,5 @@ p {
   }
 
 .footer__box {
-    margin-top: -5rem;
+    margin-top: -4rem;
   }
