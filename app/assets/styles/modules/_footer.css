@@ -1,0 +1,51 @@
+.footer {
+  background-image: url(../../assets/images/pattern.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  /* background-size: contain; */
+  &__list {
+    &-wrapper {
+      list-style: none;
+      li {
+        font-weight: 450;
+        font-size: 0.89rem;
+        color: rgba(24, 59, 86, 0.56);
+        padding-bottom: 1.2rem;
+      }
+      a {
+        color: rgba(24, 59, 86, 0.56);
+        &:hover {
+          text-decoration: none !important;
+        }
+      }
+    }
+    &__header {
+      height: 30px;
+      position: relative;
+      margin-bottom: 1.1rem;
+      color: #183b56 !important;
+      font-size: 1rem !important;
+      font-weight: 700 !important;
+      .logo {
+        height: 200%;
+      }
+    }
+  }
+  &__social-link {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: #eef0f2;
+    border-radius: 50%;
+  }
+  &__copy {
+    color: #183b56;
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+
+  &__box {
+    margin-top: -5rem;
+  }
+}

@@ -1,0 +1,20 @@
+.partner {
+  width: 45%;
+  text-align: center;
+  &__container {
+    padding-top: 4rem;
+  }
+  &__img {
+    opacity: 0.75;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 900px) {
+  .partner {
+    width: 18%;
+  }
+  .partner__img {
+    max-width: 97%;
+  }
+}

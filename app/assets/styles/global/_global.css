@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #5a7184;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  font-family: "CircularStd", sans-serif;
+  background: #fafcff;
+  min-height: 100vh;
+  font-style: normal;
+}
+p {
+  font-size: 1rem;
+  color: #5a7184;
+  line-height: 1.65rem;
+}
+.link {
+  white-space: nowrap;
+}
+
+.c-bold {
+  font-weight: 700 !important;
+}
+.c-semi-medium {
+  font-weight: 500 !important;
+}
+
+.c-light {
+  font-weight: 400 !important;
+}
+.c-title {
+  /* font-size: 2.5rem; */
+  color: var(--dark-blue);
+
+  &--small {
+    font-size: 1.125rem;
+    color: var(--dark-blue);
+  }
+}
+.c-bolder {
+  font-weight: 900 !important;
+}
+.text-cus-col {
+  color: var(--dark-blue) !important;
+}
+
+.c-normal {
+  font-weight: 400;
+}
+
+.sub-text {
+  font-size: 1.125rem;
+  max-width: 500px;
+}
+
+.pattern-img {
+  top: -60px;
+  left: -45px;
+  max-width: 300px;
+}
+
+.c-title--small {
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-bottom: 1.7rem;
+  letter-spacing: 0.15625rem;
+}
+
+.c-title {
+  font-size: 0.82rem;
+  background: var(--gray);
+  border-radius: 60px;
+  padding: 0.4rem 1.5rem;
+  font-weight: 700;
+
+  &__bigger {
+    font-size: 2.125‬rem;
+    color: #193c57;
+    font-weight: 900;
+  }
+}
+
+.c-box {
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 16px;
+  border: 1px solid rgba(205, 205, 205, 0.52);
+}
+
+.btn-custom {
+  padding: 1.1rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  min-width: 200px;
+}
+
+@media (min-width: 1420px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.c-lead-inline {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 1.125;
+  font-weight: 500;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: var(--success) !important;
+  border-color: var(--success) !important;
+}
