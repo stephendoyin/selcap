@@ -1,9 +1,4 @@
 .strip {
-  background: url(../../assets/images/strip.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 9px;
-  padding: 2.5rem 1rem;
   &__shield-img {
     max-width: 150px;
   }
@@ -18,7 +13,9 @@
   .btn {
     color: #30a971;
   }
-  &__container {
-    transform: translateY(-50%);
+  &__section {
+    background: url(../../assets/images/base.jpg);
+    background-size: cover;
+    background-position: center;
   }
 }

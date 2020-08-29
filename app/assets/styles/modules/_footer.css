@@ -3,7 +3,7 @@
   background-position: right top;
   background-repeat: no-repeat;
   padding-bottom: 2rem;
-  /* background-size: contain; */
+  padding-top: 5rem;
   &__list {
     &-wrapper {
       list-style: none;
@@ -11,7 +11,7 @@
         font-weight: 450;
         font-size: 0.89rem;
         color: rgba(24, 59, 86, 0.56);
-        padding-bottom: 1.2rem;
+        padding-bottom: 1.4rem;
       }
       a {
         color: rgba(24, 59, 86, 0.56);
@@ -21,9 +21,9 @@
       }
     }
     &__header {
-      height: 30px;
+      height: 40px;
       position: relative;
-      margin-bottom: 1.1rem;
+      margin-bottom: 1.3rem;
       color: #183b56 !important;
       font-size: 1rem !important;
       font-weight: 700 !important;
@@ -46,6 +46,6 @@
   }
 
   &__box {
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
   }
 }
