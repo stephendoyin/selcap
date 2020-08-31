@@ -23,7 +23,7 @@ task("watch", function (cb) {
     cb();
   });
 
-  watch("./app/index.html", function (cb) {
+  watch("./app/about.html", function (cb) {
     browserSync.reload();
     cb();
   });

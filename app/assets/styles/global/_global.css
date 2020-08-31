@@ -96,7 +96,8 @@ p {
   &__bigger {
     font-size: 2.125‬rem;
     color: #193c57;
-    font-weight: 900;
+    font-weight: 700;
+    line-height: 1.4;
   }
 }
 
@@ -135,4 +136,14 @@ p {
   color: #fff;
   background-color: var(--success) !important;
   border-color: var(--success) !important;
+}
+
+.bg-half {
+  background: #fafcff !important;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 22;
 }
