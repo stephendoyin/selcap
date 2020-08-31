@@ -28,6 +28,11 @@ task("watch", function (cb) {
     cb();
   });
 
+  watch("./app/login.html", function (cb) {
+    browserSync.reload();
+    cb();
+  });
+
   watch("./app/assets/styles/**/*.css", series("styles", "cssInject"));
 
   watch(
