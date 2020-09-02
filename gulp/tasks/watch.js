@@ -33,6 +33,21 @@ task("watch", function (cb) {
     cb();
   });
 
+  watch("./app/signup.html", function (cb) {
+    browserSync.reload();
+    cb();
+  });
+
+  watch("./app/savings.html", function (cb) {
+    browserSync.reload();
+    cb();
+  });
+
+  watch("./app/invest.html", function (cb) {
+    browserSync.reload();
+    cb();
+  });
+
   watch("./app/assets/styles/**/*.css", series("styles", "cssInject"));
 
   watch(

@@ -16062,6 +16062,30 @@ p {
   z-index: 22;
 }
 
+.shape-right {
+  top: 0;
+  right: 0;
+}
+
+.logo__container {
+  box-shadow: 0px 4px 29px 7px rgba(48, 169, 113, 0.14);
+  border-radius: 23px;
+}
+
+.curve-pattern {
+  bottom: 0;
+  right: 0;
+}
+
+.curve-pattern--two {
+    top: 0;
+    left: 0;
+  }
+
+a:hover {
+  text-decoration: none;
+}
+
 /* @import "owl.carousel/dist/assets/owl.carousel.css"; */
 
 .c-header {
@@ -16072,6 +16096,18 @@ p {
   mix-blend-mode: normal;
   overflow: hidden;
 }
+
+.c-header--hero {
+    background: url(../../assets/images/SAVE-HERO.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+.c-header--invest {
+    background: url(../../assets/images/invest-hero.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
 .c-header--login {
     padding: 7rem 0 0 0;
@@ -16115,6 +16151,11 @@ p {
     padding-right: 2rem;
     max-width: 700px;
   }
+
+.c-header__text-container--wide {
+      padding-right: 0;
+      max-width: 800px;
+    }
 
 .c-header__img-container {
     width: 100%;
@@ -16464,26 +16505,27 @@ p {
   }
 }
 
-.partner {
-  width: 45%;
-  text-align: center;
+.partner__img-container img {
+      height: 70px;
+    }
+
+.partner__img-container {
+
+    margin-bottom: 4rem;
+    width: 100%;
 }
 
-.partner__container {
-    padding-top: 4rem;
-  }
+.partner__img-container:last-child {
+      margin-bottom: 0rem;
+    }
 
-.partner__img {
-    opacity: 0.75;
-    max-width: 70%;
+@media (min-width: 1100px) {
+  .partner__img-container img {
+    height: 90px;
   }
-
-@media (min-width: 900px) {
-  .partner {
-    width: 18%;
-  }
-  .partner__img {
-    max-width: 97%;
+  .partner__img-container {
+    margin-bottom: 0;
+    width: auto;
   }
 }
 
@@ -16618,6 +16660,7 @@ p {
 .testimonial__label {
     color: #738899;
     font-size: 0.89rem;
+    font-weight: 700;
   }
 
 .testimonial__bg {
@@ -16657,6 +16700,8 @@ p {
 .c-input {
   border: none;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
 }
 
 .c-input:focus {
@@ -16671,7 +16716,7 @@ p {
     border-radius: 5px;
     overflow: hidden;
     height: 61px;
-    width: 342px;
+    width: 100%;
     position: relative;
   }
 
@@ -16681,6 +16726,12 @@ p {
               filter: drop-shadow(0px 4px 4px rgba(50, 50, 71, 0.08)),
         drop-shadow(0px 4px 8px rgba(50, 50, 71, 0.06));
     }
+
+@media (min-width: 576px) {
+  .c-input__container {
+    width: 342px;
+  }
+}
 
 .rating__icon-container {
     height: 50px;

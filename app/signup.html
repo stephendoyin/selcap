@@ -39,19 +39,21 @@
               <img src="assets/images/logo.png" class="logo" alt="" />
             </a>
             <div class="menu">
+              <a href="" class="nav__link ml-5">About Us</a>
+
               <a href="about.html" class="nav__link nav__link--js ml-5"
                 >About</a
               >
               <a href="savings.html" class="nav__link nav__link--js ml-5"
                 >Save</a
               >
-              <a href="invet.html" class="nav__link ml-5">Invest</a>
+              <a href="invest.html" class="nav__link ml-5">Invest</a>
               <a href="" class="nav__link ml-5">Blog</a>
               <a href="" class="nav__link ml-5">FAQ</a>
               <a
-                href="signup.html"
+                href="login.html"
                 class="nav__link ml-5 btn btn-sm btn-custom btn-outline-success c-header__btn text-success"
-                >Sign Up</a
+                >Sign In</a
               >
             </div>
             <div class="nav__menu-icon">
@@ -61,7 +63,7 @@
 
           <div class="nav__menu">
             <a
-              href="#"
+              href="#how-it-works"
               class="mx-auto text-center nav__link nav__link--js nav__link--mobile nav__link--active"
             >
               How it works
@@ -97,13 +99,22 @@
           <div class="col-md-6">
             <div class="d-flex justify-content-center align-items-center">
               <div>
-                <h2 class="login__title c-title--bigger pt-4">
+                <h2 class="login__title c-title--bigger">
                   Create a free account
                 </h2>
 
                 <form action="" class="mt-4">
                   <div class="form__input-container">
-                    <div class="form__label mt-2">Email Address</div>
+                    <div class="form__label mt-2">Full Name</div>
+                    <input
+                      type="text"
+                      class="form__input"
+                      placeholder="John Doe"
+                      required
+                    />
+                  </div>
+                  <div class="form__input-container">
+                    <div class="form__label mt-3">Email Address</div>
                     <input
                       type="email"
                       class="form__input"
@@ -141,13 +152,12 @@
                       type="submit"
                       class="btn shadow-sm btn-block btn-custom btn-success"
                     >
-                      Login
+                      Get Started
                     </button>
                   </div>
                   <div class="pt-4">
                     <span>
-                      Don't have an account yet?
-                      <a href="signup.html">Sign Up</a>
+                      Already have account? <a href="signin.html">Sign In</a>
                     </span>
                   </div>
                 </form>

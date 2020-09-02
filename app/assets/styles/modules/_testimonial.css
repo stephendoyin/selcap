@@ -25,6 +25,7 @@
   &__label {
     color: #738899;
     font-size: 0.89rem;
+    font-weight: 700;
   }
   &__bg {
     bottom: 0;

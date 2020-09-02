@@ -6,6 +6,18 @@
   mix-blend-mode: normal;
   overflow: hidden;
 
+  &--hero {
+    background: url(../../assets/images/SAVE-HERO.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  &--invest {
+    background: url(../../assets/images/invest-hero.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
   &--login {
     padding: 7rem 0 0 0;
   }
@@ -23,12 +35,14 @@
   &__inner {
     width: 100%;
   }
+
   &__bg-one {
     top: 0;
     right: 0;
     z-index: 0;
     max-width: 111%;
   }
+
   &__bg-two {
     bottom: 0px;
     left: 0;
@@ -43,6 +57,11 @@
     /* padding-left: 2rem; */
     padding-right: 2rem;
     max-width: 700px;
+
+    &--wide {
+      padding-right: 0;
+      max-width: 800px;
+    }
   }
   &__img-container {
     width: 100%;

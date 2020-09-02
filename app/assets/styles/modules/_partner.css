@@ -1,20 +1,23 @@
 .partner {
-  width: 45%;
-  text-align: center;
-  &__container {
-    padding-top: 4rem;
-  }
-  &__img {
-    opacity: 0.75;
-    max-width: 70%;
+  &__img-container {
+    img {
+      height: 70px;
+    }
+
+    margin-bottom: 4rem;
+    width: 100%;
+    &:last-child {
+      margin-bottom: 0rem;
+    }
   }
 }
 
-@media (min-width: 900px) {
-  .partner {
-    width: 18%;
+@media (min-width: 1100px) {
+  .partner__img-container img {
+    height: 90px;
   }
-  .partner__img {
-    max-width: 97%;
+  .partner__img-container {
+    margin-bottom: 0;
+    width: auto;
   }
 }
