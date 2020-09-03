@@ -61,6 +61,15 @@
     }
   }
 
+  &__list {
+    list-style: none;
+    li {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 1rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
   &__content a {
     font-size: 1rem;
     font-weight: 400;
