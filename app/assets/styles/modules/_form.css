@@ -4,7 +4,7 @@
     padding-bottom: 0.3rem;
   }
   &__input-container {
-    width: 412px;
+    width: 100%;
 
     label {
       font-size: 0.95rem;
@@ -30,5 +30,11 @@
   }
 
   &__check {
+  }
+}
+
+@media (min-width: 576px) {
+  .form__input-container {
+    width: 412px;
   }
 }

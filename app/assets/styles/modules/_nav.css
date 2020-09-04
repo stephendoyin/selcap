@@ -132,7 +132,7 @@
 
     &--show {
       overflow: auto;
-      height: 330px;
+      height: 420px;
       opacity: 1;
       z-index: 0;
     }

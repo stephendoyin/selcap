@@ -16369,7 +16369,7 @@ a:hover {
 
 .nav__menu--show {
       overflow: auto;
-      height: 330px;
+      height: 420px;
       opacity: 1;
       z-index: 0;
     }
@@ -16889,7 +16889,7 @@ a:hover {
   }
 
 .form__input-container {
-    width: 412px;
+    width: 100%;
   }
 
 .form__input-container label {
@@ -16917,6 +16917,12 @@ a:hover {
 
 .form__check {
   }
+
+@media (min-width: 576px) {
+  .form__input-container {
+    width: 412px;
+  }
+}
 
 .footer {
   background-image: url(../../assets/images/pattern.png);
